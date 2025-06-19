@@ -1,0 +1,44 @@
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .sidebar {
+      position: fixed;
+      width: 240px;
+      height: 100vh;
+      background-color: #ffffff;
+      border-right: 1px solid #dee2e6;
+      padding-top: 20px;
+    }
+    .sidebar .nav-link {
+      padding: 12px 20px;
+      color: #333;
+      display: flex;
+      align-items: center;
+    }
+    .sidebar .nav-link:hover {
+      background-color: #f1f1f1;
+    }
+    .sidebar .nav-link i {
+      margin-right: 10px;
+    }
+    .main-content {
+      margin-left: 240px;
+      padding: 30px;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 120px;
+    }
+    .card-summary {
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border: none;
+    }
+    .card-summary h5 {
+      font-size: 16px;
+      color: #888;
+    }
+    .card-summary h3 {
+      font-weight: bold;
+    }
